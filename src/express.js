@@ -31,6 +31,9 @@ app.use('/', authRoutes)
 app.use('/', bookRoutes)
 app.use('/', categoryRoutes)
 app.use('/', cityRoutes)
+app.use('/', orderRoutes)
+app.use('/', paymentRoutes)
+app.use('/', yenepayRoutes)
 
 
 // after we complate or may be on thw way we will handel
