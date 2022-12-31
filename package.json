@@ -1,0 +1,29 @@
+{
+  "name": "eneho_books",
+  "version": "1.0.0",
+  "description": "EnhoBooks - An E-commerce Website for the distribution of Books accross Ethiopia",
+  "type": "module",
+  "main": "eneho.js",
+  "scripts": {
+    "development": "nodemon",
+    "start": "node eneho.js"
+  },
+  "author": "Teshome Nbret |UGR/3281/12 |teshomenbret4@gmail.com, Petros Beyene |UGR/1308/12 |petrosbeyene611@gmail.com  , Yeabsira Tekuamwork |UGR/9192/12 |yabtekuam@gmail.com, Betelihem Mengist |UGR/4777/12 |betelihemmengist21@gmail.com ,Gifti Mulugeta |UGR/6377/12 |gakmt7@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "formidable": "^2.1.1",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.7.5",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
