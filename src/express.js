@@ -34,7 +34,8 @@ app.use('/', cityRoutes)
 app.use('/', orderRoutes)
 app.use('/', paymentRoutes)
 app.use('/', yenepayRoutes)
-
+app.use('/', requestRoutes)
+app.use('/', eventRoutes)
 
 // after we complate or may be on thw way we will handel
 // a static file
