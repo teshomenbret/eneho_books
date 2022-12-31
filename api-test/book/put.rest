@@ -1,0 +1,12 @@
+PUT  http://localhost:3000/api/books/6390deff1ef3dd33b7cd543a HTTP/1.1
+content-type:application/json
+
+{   
+    "name": "Addis Abebea unversity Upgrade",
+    "auther": "Upgrade-auther",
+    "page_count":100,
+    "edition":5
+}
+
+
+

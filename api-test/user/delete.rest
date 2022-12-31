@@ -1,0 +1,9 @@
+DELETE http://localhost:3000/api/users/62e81dcf768f65fcc64bd712 HTTP/1.1
+content-type:application/json
+Authorization:bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhvbWVoZUBnaXBsLmNvbSIsIm5hbWUiOiJ0IiwiaWF0IjoxNjU5MzgwNDMyLCJleHAiOjE2NTkzODQwMzJ9.Ugjt1evrEXxrzsxpwsarsPK-lbDmweDwa0I8FxXEufo
+
+{   
+    "name": "tu",
+    "email": "ohjjhfffghmee@gmail.com",
+    "password": "1hhhf3456"
+}

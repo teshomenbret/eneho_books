@@ -1,0 +1,2 @@
+DELETE  http://localhost:3000/api/categories/63a80b1e0f91c99b9c20c11a HTTP/1.1
+content-type:application/json

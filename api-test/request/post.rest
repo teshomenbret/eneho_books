@@ -1,0 +1,10 @@
+POST  http://localhost:3000/api/requests HTTP/1.1
+content-type:application/json
+
+{   
+    "name": "Book name",
+    "author":"Author name",
+    "description":"Roha Band has produced over 250 recordings with various Ethiopian singers including Aster Aweke, Tilahun Gesesse, Mahmoud Ahmed, and Alemayehu Eshete. Over the past years, they have become a major influence on Ethiopian music.Their album Roha Band Tour 1990 was recorded during their first North American tour and this album introduces singers Neway Debebe, Hamelmal Abate, and Berhane Haile",
+    "user":"user id"
+
+}

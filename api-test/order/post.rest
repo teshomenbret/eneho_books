@@ -1,0 +1,28 @@
+POST  http://localhost:3000/api/orders HTTP/1.1
+content-type:application/json
+
+{   
+    "books":[
+        {
+            "itemId":"639372bc8b47b8c3803b29a4",
+            "itemName":"12/17/2022 pdt req.order-final",
+            "unitPrice": 8,
+            "quantity":3,
+            "unitPercetDiscount":0,
+
+        },
+        {
+            "itemId":"639372bc8b47b8c3803b29a4",
+            "itemName":"12/17/2022 pdt k",
+            "unitPrice": 1,
+            "quantity":1
+
+        }
+    ],
+    "user":"6390f40d222ecd6d75832999",
+    "address":"Bhardar"
+}
+
+
+
+

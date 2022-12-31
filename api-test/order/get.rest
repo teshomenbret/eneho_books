@@ -1,0 +1,86 @@
+GET  http://localhost:3000/api/orders HTTP/1.1
+
+
+# http://localhost:3000/api/orders?TotalAmount=200.00&BuyerId=509d9230-3034-4ecd-815c-7a4a2a5cd71a&MerchantOrderId=639443b6d21937fdc6475fd1&MerchantCode=SB2072&MerchantId=f0df79d4-d842-4f2c-8fa6-5a2a347cdf44&TransactionCode=2CDRELTG&TransactionId=17f5cf9c-f165-4344-9ed7-c6932e58aee5&Status=Paid&Currency=ETB&Signature=jbtKxsKAJBhR0J4++ls4+D8spuxPAMQZRpGmQIpewesmpUU4KPVGdksQ/ibq55Yi4bdeBQmtxLcStLr3yjlzLIT+1f63n+WsDxtf1PKhH/TlRDt6Jodcw9lsNhfP6h3PWwmasDSZYZ0OsWk68uc9nqmt5DN6K5JHNe45kfF48ksRjX8RIWFujfBbMnLhh+YfdAvpQczPYmN3l0FTffmKYDlgNXsc5h4nkPLrA2eRsiA9yjyr2p22EU406EsU6vtvl5dcCBVU7dmeCB/aWjq4Om9Xtr7gNhm/Co7vF+ow5Gu/uwhI10s9ewIOglym1PS19lat6GfXmn9VosmV5XIWLw==
+
+
+
+# https://test.yenepay.com/Home/Process/?Process=Cart&CancelUrl=http://localhost:3000/api/books&SuccessUrl=http://localhost:3000/api/orders&FailureUrl=http://localhost:3000/api/users&IPNUrl=http://localhost:3000/&MerchantId=SB2072&MerchantOrderId=639443b6d21937fdc6475fd1&TotalItemsDeliveryFee=10&TotalItemsDiscount=20&TotalItemsHandlingFee=10&Items%5B0%5D.ItemId=639372bc8b47b8c3803b29a4&Items%5B0%5D.ItemName=Teshome%20a&Items%5B0%5D.Quantity=1&Items%5B0%5D.UnitPrice=100&Items%5B1%5D.ItemId=639372bc8b47b8c3803b29a4&Items%5B1%5D.ItemName=Teshome%20b&Items%5B1%5D.Quantity=1&Items%5B1%5D.UnitPrice=100
+
+
+
+# PaymentSuccessReturnUrl {
+#   TotalAmount: '20.00',
+#   BuyerId: '931fd0e1-a27e-432d-96a0-5e68ade6b54d',
+#   MerchantOrderId: '63944d09dc583f01574a7334',
+#   MerchantCode: 'SB2072',
+#   MerchantId: 'f0df79d4-d842-4f2c-8fa6-5a2a347cdf44',
+#   TransactionCode: 'HHG82DEO',
+#   TransactionId: 'f78bcf55-59e2-4e8b-b693-cb778a2173cd',
+#   Status: 'Paid',
+#   Currency: 'ETB',
+#   Signature: 'RZQWSQ2lM34TUyk3 /GrPSIlJ7K/zZhrRLrzNG 6Nr1L uYETGh4JBN5iQQ64zop0zCQStAUMPwxh1JOdiz/SEmBzDlF2HC/pGC9 Val2HRLj0bnbd32KWgGN6xmyZ7G1YE/qF4q9TmNpRS4CRfY4mx /m6dZQSWkw/xNnIVr/ISfsLKD/k3uSA0iZgnay pJvyf93rLenSHMUfN7IrqmNhzlm 0CWSumALnCXZ0W2E2ZANvvZPVTxt/0 WZ8OPQjVpO3sTTbozE6ckM2As/dLX3D6RwQEwryeMJh9nOLBVwE iD/Y8Tti11jxWdwJsE5tAOwky3Az7u4K2lr8M3Zw=='
+# }
+
+
+# let pdt = {
+    //     requestType:"PDT",
+    
+    //     pdtToken:config.pdtToken,
+    
+    //     transactionId:params.TransactionId,
+    
+    //     merchantOrderId:params.MerchantOrderId
+    
+    // }
+
+    // // const pdtRequestModel = await fetch('https://testapi.yenepay.com/api/verify/pdt/', 
+    // //                           {
+    // //                             method: 'post',
+    // //                             body: JSON.stringify(pdt),
+    // //                             headers: {'Content-Type': 'application/json'}
+    // //                           }
+    // //                           );
+
+
+
+# {"pdt":"result=SUCCESS&TotalAmount=10.00&BuyerId=23653b1d-b89f-462f-86a7-1b1cbe7e09b1&MerchantOrderId=639724d15e86d0bf66a58c74&MerchantCode=SB2072&MerchantId=f0df79d4-d842-4f2c-8fa6-5a2a347cdf44&TransactionCode=N7OQD3X3&TransactionId=667cd3b3-8a8d-4487-8471-c89c46e4e718&Status=Paid&Currency=ETB"}
+ // const data = {
+    //   totalAmount:params.TotalAmount,
+    //   buyerId:params.BuyerId,
+    //   merchantOrderId:params.MerchantOrderId,
+    //   merchantCode:params.MerchantCode,
+    //   merchantId:params.MerchantId,
+    //   transactionCode:params.TransactionCode,
+    //   transactionId:params.TransactionId,
+    //   status:params.Status,
+    //   currency:params.Currency,
+    //   signature:params.Signature
+    // }
+
+
+
+
+    // const data = {
+    //   totalAmount:pdt.TotalAmount,
+    //   buyerId:pdt.BuyerId,
+    //   merchantOrderId:pdt.MerchantOrderId,
+    //   merchantCode:pdt.MerchantCode,
+    //   merchantId:pdt.MerchantId,
+    //   transactionCode:pdt.TransactionCode,
+    //   transactionId:pdt.TransactionId,
+    //   status:pdt.Status,
+    //   currency:pdt.Currency,
+    //   signature:req.signature
+    // }
+    // console.log(data)
+
+    // const response = await fetch('https://testapi.yenepay.com/api/verify/ipn/', 
+    //                             {
+    //                               method: 'post',
+    //                               body: JSON.stringify(data),
+    //                               headers: {'Content-Type': 'application/json'}
+    //                             }
+    //                         );
+    // const ver = await response.json();
+    // console.log("ver",ver)

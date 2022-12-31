@@ -1,0 +1,1 @@
+GET http://localhost:3000/api/books/63b079b71ed084483d9d805c HTTP/1.1

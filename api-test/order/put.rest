@@ -1,0 +1,19 @@
+PUT  http://localhost:3000/api/orders/6393845856619de8e76068cf HTTP/1.1
+content-type:application/json
+
+{   
+    "books":[
+        {
+            "itemId":"639372bc8b47b8c3803b29a4",
+            "itemName":"Teshome Nbret",
+            "unitPrice": 300,
+            "quantity":50
+
+        }
+    ],
+    "user":"6390f40d222ecd6d75832999",
+    "address":"Gonder"
+}
+
+
+
