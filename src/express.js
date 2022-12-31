@@ -26,6 +26,8 @@ app.use(compress())
 app.use(helmet())
 app.use(cors())
 app.use('/', bookRoutes)
+app.use('/', categoryRoutes)
+app.use('/', cityRoutes)
 
 
 // after we complate or may be on thw way we will handel
