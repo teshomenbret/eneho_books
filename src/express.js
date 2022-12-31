@@ -25,17 +25,8 @@ app.use(cookieParser())
 app.use(compress())
 app.use(helmet())
 app.use(cors())
-
-app.use('/', userRoutes)
-app.use('/', authRoutes)
 app.use('/', bookRoutes)
-app.use('/', orderRoutes)
-app.use('/', paymentRoutes)
-app.use('/', categoryRoutes)
-app.use('/', cityRoutes)
-app.use('/', yenepayRoutes)
-app.use('/', requestRoutes)
-app.use('/', eventRoutes)
+
 
 // after we complate or may be on thw way we will handel
 // a static file
