@@ -1,10 +1,1 @@
-POST  http://localhost:3000/api/books HTTP/1.1
-content-type:application/json
-
-{   
-    "name": "please work",
-    "auther": "Upgrade-auther",
-    "page_count":100,
-    "edition":5
-}
 
