@@ -8,6 +8,7 @@ To run the project:
 ### You have to have node.js installed.
 ### You have to have mongodb installed.
 ### Open the project on your on your favorite IDE
+### Run ‘npm install’ command on the terminal
 ### Run ‘npm run development’ command on the terminal
 ### Then the app will run on port 3000
 
