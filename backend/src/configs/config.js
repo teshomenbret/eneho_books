@@ -1,15 +1,15 @@
 const config = {
     env: process.env.NODE_ENV || 'development',
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 5000,
     jwtSecret: process.env.JWT_SECRET || "YOUR_secret_key",
     mongoUri: process.env.MONGODB_URI || process.env.MONGO_HOST || 'mongodb://' + (process.env.IP || 'localhost') + ':' +(process.env.MONGO_PORT || '27017') +'/eneho',
 
 
 
     // payment information
-    sellerCode:"SB2072",
-    merchantId:"SB2072",
-    pdtToken : "BR9K4IGDELb6CR",
+    sellerCode:"SB2118",
+    merchantId:"SB2118",
+    pdtToken : "gl7P8HxNKj1vNE",
     useSandbox : true,
     process:"Cart",
     currency : "USD",
@@ -21,10 +21,10 @@ const config = {
 
 
 
-    successUrlReturn :"http://localhost:3000/yenepay/paymentSuccessReturnUrl",
-    ipnUrlReturn : "http://localhost:3000/yenepay/IPNDestination",
-    cancelUrlReturn : "http://localhost:3000/yenepay/paymentCancelReturnUrl",
-    failureUrlReturn : "http://localhost:3000/yenepay/paymentFailureReturnUrl",
+    successUrlReturn :"http://localhost:5000/yenepay/paymentSuccessReturnUrl",
+    ipnUrlReturn : "http://localhost:5000/yenepay/IPNDestination",
+    cancelUrlReturn : "http://localhost:5000/yenepay/paymentCancelReturnUrl",
+    failureUrlReturn : "http://localhost:5000/yenepay/paymentFailureReturnUrl",
 
    }
    export default config
